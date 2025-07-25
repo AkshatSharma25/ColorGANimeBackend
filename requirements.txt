@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+pillow
+torch
+torchvision
+opencv-python
+numpy
