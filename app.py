@@ -29,7 +29,7 @@ transform = generator.transforms.Compose([
 
 
 
-checkpoint = generator.torch.load('model\checkpoint24.pth', weights_only=True)
+checkpoint = generator.torch.load(r'model\checkpoint24.pth', weights_only=True)
 generator.gen.load_state_dict(checkpoint['model_state_dict'])
 # disc.load_state_dict(checkpoint['disc_state_dict'])
 generator.opt_gen.load_state_dict(checkpoint['opt_gen_state_dict'])
